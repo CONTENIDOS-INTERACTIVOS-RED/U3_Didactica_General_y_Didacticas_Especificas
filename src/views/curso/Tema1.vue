@@ -91,10 +91,10 @@
     h2.mb-5(data-aos="fade-left") Características 
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/7.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         .bg-color-1.p-4.mb-5(data-aos="fade-left")
           p.mb-0 La planificación didáctica eficaz, no solo debe responder a los objetivos curriculares institucionales, sino también adaptarse a los contextos cambiantes y a las necesidades reales del grupo de estudiantes. Su construcción implica procesos de escritura reflexiva, colaboración docente, toma de decisiones estratégicas y flexibilidad. Diversos autores coinciden en que una planificación bien formulada permite organizar, coordinar y proyectar la enseñanza con coherencia y sentido pedagógico.
         p(data-aos="fade-left") A continuación, se presentan sus principales características según los enfoques de Montagud Rubio, Lifeder, y Monetti y Molina.
