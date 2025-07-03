@@ -341,14 +341,27 @@
           p.mb-0 El éxito de estas metodologías, exige un docente mediador, que oriente sin imponer, facilite recursos, promueva la exploración y ajuste estrategias didácticas, según las necesidades del grupo (Camilloni, 2007).
     
     h2(data-aos="fade-left") Pilar 5. La evaluación formativa y continua
-    p.mb-5 En el contexto educativo actual, la evaluación se concibe no solo como una medición de resultados, sino como una herramienta pedagógica que acompaña el aprendizaje. La evaluación formativa y continua, surge como un pilar fundamental que transforma la manera en que se valora el proceso educativo, priorizando el seguimiento permanente, la retroalimentación oportuna y la adaptación constante de las estrategias docentes para favorecer el desarrollo integral del estudiante.
+    p.mb-0 En el contexto educativo actual, la evaluación se concibe no solo como una medición de resultados, sino como una herramienta pedagógica que acompaña el aprendizaje. La evaluación formativa y continua, surge como un pilar fundamental que transforma la manera en que se valora el proceso educativo, priorizando el seguimiento permanente, la retroalimentación oportuna y la adaptación constante de las estrategias docentes para favorecer el desarrollo integral del estudiante.
 
-    .bg-full-width.bg-fondo-slider.mb-5
+
+
+    .bg-full-width.bg-color-5.mb-4
       .p-4.p-md-5
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-2.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/tema2/podcast.svg", data-aos="zoom-in")
+          .col-lg-6.order-1
+            p(data-aos="fade-left").mb-4 Para conocer esta temática, lo invitamos a escuchar el siguiente pódcast.
+
     
+            TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
+              texto="La evaluación formativa y continua"
+              tiempo
+              :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+            )
+
+
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
@@ -364,7 +377,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Estructura de planeación: metodología, modelo, objetivo, teoría de la propuesta pedagógica
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento <b>Estructura de planeación:< metodología, modelo, objetivo, teoría de la propuesta pedagógica</b>, donde se aborda el diseño y desarrollo de la planeación didáctica, especialmente enfocada en la educación infantil.
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento <b>Estructura de planeación: metodología, modelo, objetivo, teoría de la propuesta pedagógica</b>, donde se aborda el diseño y desarrollo de la planeación didáctica, especialmente enfocada en la educación infantil.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
